@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15A710C3DFD43E682A1BC2B6 /* Pods_AsyncDrawingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C63BDB5846A71CF65389571 /* Pods_AsyncDrawingUITests.framework */; };
+		2C42C72A1CEC11BC00B201B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42C7291CEC11BC00B201B2 /* AppDelegate.swift */; };
+		2C42C72C1CEC11BC00B201B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42C72B1CEC11BC00B201B2 /* ViewController.swift */; };
+		2C42C72F1CEC11BC00B201B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C42C72D1CEC11BC00B201B2 /* Main.storyboard */; };
+		2C42C7311CEC11BC00B201B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C42C7301CEC11BC00B201B2 /* Assets.xcassets */; };
+		2C42C7341CEC11BC00B201B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C42C7321CEC11BC00B201B2 /* LaunchScreen.storyboard */; };
+		2C42C73F1CEC11BC00B201B2 /* AsyncDrawingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42C73E1CEC11BC00B201B2 /* AsyncDrawingTests.swift */; };
+		2C42C74A1CEC11BC00B201B2 /* AsyncDrawingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42C7491CEC11BC00B201B2 /* AsyncDrawingUITests.swift */; };
+		500107C7B4C707A63D578EF9 /* Pods_AsyncDrawing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD2C6063B4A6FEEA1C0C7E1 /* Pods_AsyncDrawing.framework */; };
+		8112DD798452A8AF90622825 /* Pods_AsyncDrawingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FC578B476FCEA59871F641 /* Pods_AsyncDrawingTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C42C73B1CEC11BC00B201B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C42C71E1CEC11BC00B201B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C42C7251CEC11BC00B201B2;
+			remoteInfo = AsyncDrawing;
+		};
+		2C42C7461CEC11BC00B201B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C42C71E1CEC11BC00B201B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C42C7251CEC11BC00B201B2;
+			remoteInfo = AsyncDrawing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11E6375BF7CFB28EE389911B /* Pods-AsyncDrawingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDrawingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncDrawingUITests/Pods-AsyncDrawingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1671255C6520F9A63F9C53A5 /* Pods-AsyncDrawing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDrawing.release.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncDrawing/Pods-AsyncDrawing.release.xcconfig"; sourceTree = "<group>"; };
+		23AA588EBE4639F6CB83592A /* Pods-AsyncDrawingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDrawingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncDrawingTests/Pods-AsyncDrawingTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C42C7261CEC11BC00B201B2 /* AsyncDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C42C7291CEC11BC00B201B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C42C72B1CEC11BC00B201B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C42C72E1CEC11BC00B201B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C42C7301CEC11BC00B201B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C42C7331CEC11BC00B201B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C42C7351CEC11BC00B201B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C42C73A1CEC11BC00B201B2 /* AsyncDrawingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncDrawingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C42C73E1CEC11BC00B201B2 /* AsyncDrawingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncDrawingTests.swift; sourceTree = "<group>"; };
+		2C42C7401CEC11BC00B201B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C42C7451CEC11BC00B201B2 /* AsyncDrawingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncDrawingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C42C7491CEC11BC00B201B2 /* AsyncDrawingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncDrawingUITests.swift; sourceTree = "<group>"; };
+		2C42C74B1CEC11BC00B201B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E70F5B55D52E878C0BA9E66 /* Pods-AsyncDrawingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDrawingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncDrawingTests/Pods-AsyncDrawingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		76C805AF6A1BCF5E29920BB3 /* Pods-AsyncDrawingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDrawingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncDrawingUITests/Pods-AsyncDrawingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C63BDB5846A71CF65389571 /* Pods_AsyncDrawingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsyncDrawingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD2C6063B4A6FEEA1C0C7E1 /* Pods_AsyncDrawing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsyncDrawing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FC578B476FCEA59871F641 /* Pods_AsyncDrawingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsyncDrawingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B701F059DCF31CFEBBD1A3 /* Pods-AsyncDrawing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDrawing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncDrawing/Pods-AsyncDrawing.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C42C7231CEC11BC00B201B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500107C7B4C707A63D578EF9 /* Pods_AsyncDrawing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C42C7371CEC11BC00B201B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8112DD798452A8AF90622825 /* Pods_AsyncDrawingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C42C7421CEC11BC00B201B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A710C3DFD43E682A1BC2B6 /* Pods_AsyncDrawingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C42C71D1CEC11BC00B201B2 = {
+			isa = PBXGroup;
+			children = (
+				2C42C7281CEC11BC00B201B2 /* AsyncDrawing */,
+				2C42C73D1CEC11BC00B201B2 /* AsyncDrawingTests */,
+				2C42C7481CEC11BC00B201B2 /* AsyncDrawingUITests */,
+				2C42C7271CEC11BC00B201B2 /* Products */,
+				700E5A12D5B9F2379FEC99AC /* Pods */,
+				9F8A1758D6CCE174BF38B883 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C42C7271CEC11BC00B201B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C42C7261CEC11BC00B201B2 /* AsyncDrawing.app */,
+				2C42C73A1CEC11BC00B201B2 /* AsyncDrawingTests.xctest */,
+				2C42C7451CEC11BC00B201B2 /* AsyncDrawingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C42C7281CEC11BC00B201B2 /* AsyncDrawing */ = {
+			isa = PBXGroup;
+			children = (
+				2C42C7291CEC11BC00B201B2 /* AppDelegate.swift */,
+				2C42C72B1CEC11BC00B201B2 /* ViewController.swift */,
+				2C42C72D1CEC11BC00B201B2 /* Main.storyboard */,
+				2C42C7301CEC11BC00B201B2 /* Assets.xcassets */,
+				2C42C7321CEC11BC00B201B2 /* LaunchScreen.storyboard */,
+				2C42C7351CEC11BC00B201B2 /* Info.plist */,
+			);
+			path = AsyncDrawing;
+			sourceTree = "<group>";
+		};
+		2C42C73D1CEC11BC00B201B2 /* AsyncDrawingTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C42C73E1CEC11BC00B201B2 /* AsyncDrawingTests.swift */,
+				2C42C7401CEC11BC00B201B2 /* Info.plist */,
+			);
+			path = AsyncDrawingTests;
+			sourceTree = "<group>";
+		};
+		2C42C7481CEC11BC00B201B2 /* AsyncDrawingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C42C7491CEC11BC00B201B2 /* AsyncDrawingUITests.swift */,
+				2C42C74B1CEC11BC00B201B2 /* Info.plist */,
+			);
+			path = AsyncDrawingUITests;
+			sourceTree = "<group>";
+		};
+		700E5A12D5B9F2379FEC99AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6B701F059DCF31CFEBBD1A3 /* Pods-AsyncDrawing.debug.xcconfig */,
+				1671255C6520F9A63F9C53A5 /* Pods-AsyncDrawing.release.xcconfig */,
+				5E70F5B55D52E878C0BA9E66 /* Pods-AsyncDrawingTests.debug.xcconfig */,
+				23AA588EBE4639F6CB83592A /* Pods-AsyncDrawingTests.release.xcconfig */,
+				76C805AF6A1BCF5E29920BB3 /* Pods-AsyncDrawingUITests.debug.xcconfig */,
+				11E6375BF7CFB28EE389911B /* Pods-AsyncDrawingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F8A1758D6CCE174BF38B883 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AD2C6063B4A6FEEA1C0C7E1 /* Pods_AsyncDrawing.framework */,
+				B3FC578B476FCEA59871F641 /* Pods_AsyncDrawingTests.framework */,
+				8C63BDB5846A71CF65389571 /* Pods_AsyncDrawingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C42C7251CEC11BC00B201B2 /* AsyncDrawing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C42C74E1CEC11BC00B201B2 /* Build configuration list for PBXNativeTarget "AsyncDrawing" */;
+			buildPhases = (
+				F2538103E8E7CC69ED73C8FA /* 📦 Check Pods Manifest.lock */,
+				2C42C7221CEC11BC00B201B2 /* Sources */,
+				2C42C7231CEC11BC00B201B2 /* Frameworks */,
+				2C42C7241CEC11BC00B201B2 /* Resources */,
+				F4A06D11CBF76090C6C7EBA1 /* 📦 Embed Pods Frameworks */,
+				A3A702E6F64E932AF041C270 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsyncDrawing;
+			productName = AsyncDrawing;
+			productReference = 2C42C7261CEC11BC00B201B2 /* AsyncDrawing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C42C7391CEC11BC00B201B2 /* AsyncDrawingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C42C7511CEC11BC00B201B2 /* Build configuration list for PBXNativeTarget "AsyncDrawingTests" */;
+			buildPhases = (
+				B9ECFCF71A74F3D9BE7C943E /* 📦 Check Pods Manifest.lock */,
+				2C42C7361CEC11BC00B201B2 /* Sources */,
+				2C42C7371CEC11BC00B201B2 /* Frameworks */,
+				2C42C7381CEC11BC00B201B2 /* Resources */,
+				4E7D9C54FEE4357BF0FD02A6 /* 📦 Embed Pods Frameworks */,
+				4313E46AFA81AD63608BEE84 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C42C73C1CEC11BC00B201B2 /* PBXTargetDependency */,
+			);
+			name = AsyncDrawingTests;
+			productName = AsyncDrawingTests;
+			productReference = 2C42C73A1CEC11BC00B201B2 /* AsyncDrawingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C42C7441CEC11BC00B201B2 /* AsyncDrawingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C42C7541CEC11BC00B201B2 /* Build configuration list for PBXNativeTarget "AsyncDrawingUITests" */;
+			buildPhases = (
+				48DBF5A5C91C46B0D74FCB98 /* 📦 Check Pods Manifest.lock */,
+				2C42C7411CEC11BC00B201B2 /* Sources */,
+				2C42C7421CEC11BC00B201B2 /* Frameworks */,
+				2C42C7431CEC11BC00B201B2 /* Resources */,
+				D9CA68D6431726E41323B591 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C42C7471CEC11BC00B201B2 /* PBXTargetDependency */,
+			);
+			name = AsyncDrawingUITests;
+			productName = AsyncDrawingUITests;
+			productReference = 2C42C7451CEC11BC00B201B2 /* AsyncDrawingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C42C71E1CEC11BC00B201B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Emiaostein;
+				TargetAttributes = {
+					2C42C7251CEC11BC00B201B2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2C42C7391CEC11BC00B201B2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2C42C7251CEC11BC00B201B2;
+					};
+					2C42C7441CEC11BC00B201B2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2C42C7251CEC11BC00B201B2;
+					};
+				};
+			};
+			buildConfigurationList = 2C42C7211CEC11BC00B201B2 /* Build configuration list for PBXProject "AsyncDrawing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C42C71D1CEC11BC00B201B2;
+			productRefGroup = 2C42C7271CEC11BC00B201B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C42C7251CEC11BC00B201B2 /* AsyncDrawing */,
+				2C42C7391CEC11BC00B201B2 /* AsyncDrawingTests */,
+				2C42C7441CEC11BC00B201B2 /* AsyncDrawingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C42C7241CEC11BC00B201B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C42C7341CEC11BC00B201B2 /* LaunchScreen.storyboard in Resources */,
+				2C42C7311CEC11BC00B201B2 /* Assets.xcassets in Resources */,
+				2C42C72F1CEC11BC00B201B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C42C7381CEC11BC00B201B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C42C7431CEC11BC00B201B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4313E46AFA81AD63608BEE84 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsyncDrawingTests/Pods-AsyncDrawingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48DBF5A5C91C46B0D74FCB98 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E7D9C54FEE4357BF0FD02A6 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsyncDrawingTests/Pods-AsyncDrawingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3A702E6F64E932AF041C270 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsyncDrawing/Pods-AsyncDrawing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9ECFCF71A74F3D9BE7C943E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9CA68D6431726E41323B591 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsyncDrawingUITests/Pods-AsyncDrawingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2538103E8E7CC69ED73C8FA /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4A06D11CBF76090C6C7EBA1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsyncDrawing/Pods-AsyncDrawing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C42C7221CEC11BC00B201B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C42C72C1CEC11BC00B201B2 /* ViewController.swift in Sources */,
+				2C42C72A1CEC11BC00B201B2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C42C7361CEC11BC00B201B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C42C73F1CEC11BC00B201B2 /* AsyncDrawingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C42C7411CEC11BC00B201B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C42C74A1CEC11BC00B201B2 /* AsyncDrawingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C42C73C1CEC11BC00B201B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C42C7251CEC11BC00B201B2 /* AsyncDrawing */;
+			targetProxy = 2C42C73B1CEC11BC00B201B2 /* PBXContainerItemProxy */;
+		};
+		2C42C7471CEC11BC00B201B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C42C7251CEC11BC00B201B2 /* AsyncDrawing */;
+			targetProxy = 2C42C7461CEC11BC00B201B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C42C72D1CEC11BC00B201B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C42C72E1CEC11BC00B201B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C42C7321CEC11BC00B201B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C42C7331CEC11BC00B201B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C42C74C1CEC11BC00B201B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C42C74D1CEC11BC00B201B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C42C74F1CEC11BC00B201B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B701F059DCF31CFEBBD1A3 /* Pods-AsyncDrawing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AsyncDrawing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.botai.AsyncDrawing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C42C7501CEC11BC00B201B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1671255C6520F9A63F9C53A5 /* Pods-AsyncDrawing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AsyncDrawing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.botai.AsyncDrawing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2C42C7521CEC11BC00B201B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E70F5B55D52E878C0BA9E66 /* Pods-AsyncDrawingTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AsyncDrawingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.botai.AsyncDrawingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncDrawing.app/AsyncDrawing";
+			};
+			name = Debug;
+		};
+		2C42C7531CEC11BC00B201B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23AA588EBE4639F6CB83592A /* Pods-AsyncDrawingTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AsyncDrawingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.botai.AsyncDrawingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncDrawing.app/AsyncDrawing";
+			};
+			name = Release;
+		};
+		2C42C7551CEC11BC00B201B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C805AF6A1BCF5E29920BB3 /* Pods-AsyncDrawingUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AsyncDrawingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.botai.AsyncDrawingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AsyncDrawing;
+			};
+			name = Debug;
+		};
+		2C42C7561CEC11BC00B201B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E6375BF7CFB28EE389911B /* Pods-AsyncDrawingUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AsyncDrawingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.botai.AsyncDrawingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AsyncDrawing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C42C7211CEC11BC00B201B2 /* Build configuration list for PBXProject "AsyncDrawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C42C74C1CEC11BC00B201B2 /* Debug */,
+				2C42C74D1CEC11BC00B201B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C42C74E1CEC11BC00B201B2 /* Build configuration list for PBXNativeTarget "AsyncDrawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C42C74F1CEC11BC00B201B2 /* Debug */,
+				2C42C7501CEC11BC00B201B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C42C7511CEC11BC00B201B2 /* Build configuration list for PBXNativeTarget "AsyncDrawingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C42C7521CEC11BC00B201B2 /* Debug */,
+				2C42C7531CEC11BC00B201B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C42C7541CEC11BC00B201B2 /* Build configuration list for PBXNativeTarget "AsyncDrawingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C42C7551CEC11BC00B201B2 /* Debug */,
+				2C42C7561CEC11BC00B201B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C42C71E1CEC11BC00B201B2 /* Project object */;
+}
